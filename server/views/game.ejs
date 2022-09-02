@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../game.css">
+    <title>Tamagotchi</title>
+</head>
+
+<body>
+    <main id="gameMain">
+        <div id="gameDiv">
+            <div id="nameBox">
+                <div class="name">
+                    <%= tamagotchi.name %>
+                </div>
+                <div id="health">
+                    <span id="hearts">
+                        <% for(let i=1; i <=tamagotchi.health; i++) {%>
+                            ♥
+                            <% } %>
+                    </span>
+                    <span id="empty-hearts">
+                        <% for(let i=tamagotchi.health; i < 10; i++) {%>
+                            💀
+                            <% } %>
+                    </span>
+                </div>
+            </div>
+            <div id="imgBox">
+                <img height="350px" id="img" src="../img/begining.gif" alt="">
+            </div>
+            <div id="stats">
+                <div class="stat" id="hunger">
+
+                    <%= tamagotchi.hunger %>/5
+
+                </div>
+                <div class="stat" id="energy">
+
+                    <%= tamagotchi.energy %>/5
+
+                </div>
+                <div class="stat" id="hygiene">
+
+                    <%= tamagotchi.hygiene %>/5
+
+                </div>
+            </div>
+        </div>
+        <div id="buttonRow">
+            <button onclick="feed(<%= tamagotchi.id %>)">Feed</button>
+            <button onclick="play(<%= tamagotchi.id %>)">Play</button>
+            <button onclick="clean(<%= tamagotchi.id %>)">Clean</button>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../game.js"></script>
+</body>
+
+</html>

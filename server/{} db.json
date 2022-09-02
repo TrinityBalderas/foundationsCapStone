@@ -1,0 +1,29 @@
+[
+{
+    "id" : 1,
+    "name" : "Dingu",
+    "isDead": false,
+    "health" : 9,
+    "hunger" : 4,
+    "energy" : 4,
+    "hygiene" : 4
+},
+{
+    "id" : 2,
+    "name" : "Cali",
+    "isDead": false,
+    "health" : 9,
+    "hunger" : 4,
+    "energy" : 4,
+    "hygiene" : 4
+},
+{
+    "id" : 3,
+    "name" : "Boo",
+    "isDead": false,
+    "health" : 9,
+    "hunger" : 4,
+    "energy" : 4,
+    "hygiene" : 4
+}
+]

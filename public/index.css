@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#indexMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+}
+
+#indexH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    height: 15%;
+    width: 100%;
+    background-color: darkgrey;
+}
+
+#indexH p {
+    display: flex;
+    font-size: 4em;
+}
+
+#errMesg {
+    color: red;
+}
+
+form {
+    display: flex;
+    margin-bottom: 1em;
+    height: 5.5%;
+    align-content: center
+}
+
+#list {
+    display: flex;
+    height: 60%;
+    width: 60%;
+    background-color: gray;
+}
+
+#ol-list {
+    font-size: 2em;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li a {
+    color: black;
+}
+
+li button {
+    font-size: .5em;
+    border-radius: 100%;
+}

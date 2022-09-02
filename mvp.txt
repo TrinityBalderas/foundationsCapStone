@@ -1,0 +1,20 @@
+MVP
+-Its a tamagotchi, a digital pet
+-feed button
+-play button
+-clean button
+
+Database
+-json
+{
+    id: int
+    name: string
+    isDead: boolean
+    health: int
+    hunger: int
+    energy: int
+    hygiene: int
+}
+
+Wirfrmae
+-https://www.figma.com/file/X5E44pNQ0WVSCK3dSUEAre/Untitled?node-id=0%3A1
