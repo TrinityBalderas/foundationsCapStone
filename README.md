@@ -1,5 +1,5 @@
 # Tamagotchi
-This is a Tamagotchi game, it is a remake of 1980s popular toy known as Tamagotchi or handdeld digital pet. This remake has the basic funcanlity of the Tamagotchi, you are able to feed, play, and clean the pet.
+This is a Tamagotchi game, it is a remake of 1990s popular toy known as Tamagotchi or handdeld digital pet. This remake has the basic funcanlity of the Tamagotchi, you are able to feed, play, and clean the pet.
 
 # Tech Stack
 Client: HTML, Css, JavaScript, Ejs
