@@ -1,5 +1,5 @@
 # Tamagotchi
-This is a Tamagotchi game it has basic functionality of the toy or better known as a handheld digital pet popular in the 1980s.
+This is a Tamagotchi game, it is a remake of 1980s popular toy known as Tamagotchi or handdeld digital pet. This remake has the basic funcanlity of the Tamagotchi, you are able to feed, play, and clean the pet.
 
 # Tech Stack
 Client: HTML, Css, JavaScript, Ejs
@@ -9,7 +9,7 @@ Server: Node, Express, Cors, Axios, Ejs, DB.json
 # Features
 - A text box to give the Tamagotchi a name
 - Health bar
-    - if drops all the way the Tamagotchi will die
+    - if health drops to zero the Tamagotchi will die
 - Hunger stats
     - A feed button
 - Energy stats
