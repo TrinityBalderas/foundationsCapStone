@@ -18,3 +18,5 @@ Server: Node, Express, Cors, Axios, Ejs, DB.json
     - A clean button
 
 # Screenshots
+![App Screenshot](tamiIndex.png)
+![App Screenshot](tamiGame.png)
